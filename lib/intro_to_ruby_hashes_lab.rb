@@ -6,7 +6,7 @@ end
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
-  hash[key]
+  puts hash[key]
 end
 
 def update_counting_hash(hash, key)
@@ -18,4 +18,5 @@ def update_counting_hash(hash, key)
   else
     hash[key] = 1 
   end
+  puts hash
 end
